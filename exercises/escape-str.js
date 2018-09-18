@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+let escapeStr = "a"
+ escapeStr = escapeStr + "'"
+ escapeStr = escapeStr + "'"
 //* Begin of tests
 const assert = require('assert')
 

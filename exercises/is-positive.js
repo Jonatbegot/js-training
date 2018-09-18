@@ -6,8 +6,15 @@
  * stricly positive, or false otherwise
  *
  */
+function isPositive(number){
+  if (number > 0) 
+  return number = true;
+else
+    return number = false;
+}
+    
 
-// Your code:
+
 
 
 //* Begin of tests

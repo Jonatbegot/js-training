@@ -1,10 +1,21 @@
 'use strict'
 
 /*
- * Create a `total` function that takes an array of numbers
+ * Create a `total` 
  * and return the total
  *
  */
+
+function total(array)
+ {
+     let somme = 0;
+     for(let i = 0 ; i<array.length; i++)
+        somme += array[i]
+    return somme 
+ }
+    
+    
+
 
 
 //* Begin of tests
